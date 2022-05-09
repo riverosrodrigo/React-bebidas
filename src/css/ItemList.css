@@ -1,0 +1,8 @@
+.ItemList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.ItemListTitle{
+    text-align: center;
+}

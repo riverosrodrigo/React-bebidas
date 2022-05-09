@@ -1,0 +1,17 @@
+.nosotrosDescription{
+  text-align: center;
+  height: 500px;
+  background-image: url('../../public/fondo2.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.nosotrosDescription h2{
+    color: rgb(15, 14, 14);
+    padding-top: 40px;
+}
+.nosotrosDescription p{
+    color: rgb(15, 16, 15);
+    font-weight: bolder;
+    margin-top: 30px;
+    
+}

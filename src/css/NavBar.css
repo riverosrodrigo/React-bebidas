@@ -1,0 +1,63 @@
+header .main-header{
+    width: 100%;
+    display: flex;
+    padding: 10px 25px;
+    justify-content: space-between;
+    
+  }
+    nav{ 
+    display:flex;
+    justify-content: space-around;
+    background-color:#fff;
+    box-shadow: 1px 15px 15px #81818129;
+    flex-wrap: wrap;
+  }
+ .navbar{
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  .navbar li{
+    margin-right: 15px;
+  }
+  .container-logo{
+    display: flex;
+    margin-top: 10px;
+  }
+  .btn-link{
+    background:linear-gradient(45deg, #42f039, #1ea107);
+    animation: hue-rotate 2s linear infinite alternate;
+  }
+  .btn-link a {
+    list-style-type: none;
+    color: #fff;
+    text-decoration: none;
+   
+  }
+  @keyframes hue-rotate{
+    to{ filter: hue-rotate(90deg);}
+  }
+  .CartBar {
+    margin-top: 35px;
+   
+  }
+  
+@media all and (max-width:769px) {
+.navbar{
+  flex-direction: column;
+}
+.navbar li{
+  margin-bottom: 10px;
+  width: 200px;
+  align-self: center;
+  margin-right: 0px;
+  margin-left: 80px;
+}
+.CartBar{
+  margin-top: 35%;
+}
+.container-logo{
+  margin-top: 35%;
+}
+    
+  }

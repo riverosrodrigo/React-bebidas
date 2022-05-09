@@ -1,0 +1,17 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+.footer{
+    text-align: center;
+    font-weight: bold;
+    height: 60px;
+  
+    background-color: rgb(243, 236, 249);
+    margin-top: 20px;
+    color: rgb(146, 141, 141);
+}
+.footer p{
+    padding-top: 20px;
+}
